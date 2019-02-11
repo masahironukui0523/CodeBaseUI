@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:autolayout.xcodeproj">
+      location = "self:/Users/nukuimasahiro/Desktop/iOS/autolayout/CodeBaseUI.xcodeproj">
    </FileRef>
 </Workspace>

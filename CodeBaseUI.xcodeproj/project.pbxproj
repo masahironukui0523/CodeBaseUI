@@ -12,16 +12,26 @@
 		0D8C50EA220EE7FB009F7F8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D8C50E8220EE7FB009F7F8E /* Main.storyboard */; };
 		0D8C50EC220EE7FC009F7F8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D8C50EB220EE7FC009F7F8E /* Assets.xcassets */; };
 		0D8C50EF220EE7FC009F7F8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D8C50ED220EE7FC009F7F8E /* LaunchScreen.storyboard */; };
+		0D8C50F7220FDC14009F7F8E /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C50F6220FDC14009F7F8E /* SwipingController.swift */; };
+		0D8C50F9220FF8CE009F7F8E /* pageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C50F8220FF8CE009F7F8E /* pageCell.swift */; };
+		0D8C50FB2210072A009F7F8E /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C50FA2210072A009F7F8E /* Page.swift */; };
+		0DD1A5D322110DB800D27B84 /* SwipingController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1A5D222110DB800D27B84 /* SwipingController+Extension.swift */; };
+		0DD1A5D52211103200D27B84 /* SwipingController+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1A5D42211103200D27B84 /* SwipingController+UICollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0D8C50E1220EE7FB009F7F8E /* autolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autolayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D8C50E1220EE7FB009F7F8E /* CodeBaseUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeBaseUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D8C50E4220EE7FB009F7F8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D8C50E6220EE7FB009F7F8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0D8C50E9220EE7FB009F7F8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D8C50EB220EE7FC009F7F8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D8C50EE220EE7FC009F7F8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D8C50F0220EE7FC009F7F8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D8C50F6220FDC14009F7F8E /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		0D8C50F8220FF8CE009F7F8E /* pageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageCell.swift; sourceTree = "<group>"; };
+		0D8C50FA2210072A009F7F8E /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		0DD1A5D222110DB800D27B84 /* SwipingController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipingController+Extension.swift"; sourceTree = "<group>"; };
+		0DD1A5D42211103200D27B84 /* SwipingController+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipingController+UICollectionView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +48,7 @@
 		0D8C50D8220EE7FB009F7F8E = {
 			isa = PBXGroup;
 			children = (
-				0D8C50E3220EE7FB009F7F8E /* autolayout */,
+				0D8C50E3220EE7FB009F7F8E /* CodeBaseUI */,
 				0D8C50E2220EE7FB009F7F8E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +56,35 @@
 		0D8C50E2220EE7FB009F7F8E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0D8C50E1220EE7FB009F7F8E /* autolayout.app */,
+				0D8C50E1220EE7FB009F7F8E /* CodeBaseUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0D8C50E3220EE7FB009F7F8E /* autolayout */ = {
+		0D8C50E3220EE7FB009F7F8E /* CodeBaseUI */ = {
 			isa = PBXGroup;
 			children = (
 				0D8C50E4220EE7FB009F7F8E /* AppDelegate.swift */,
 				0D8C50E6220EE7FB009F7F8E /* ViewController.swift */,
+				0D8C50F6220FDC14009F7F8E /* SwipingController.swift */,
+				0DD1A5D222110DB800D27B84 /* SwipingController+Extension.swift */,
+				0DD1A5D42211103200D27B84 /* SwipingController+UICollectionView.swift */,
+				0D8C50FA2210072A009F7F8E /* Page.swift */,
+				0D8C50F8220FF8CE009F7F8E /* pageCell.swift */,
 				0D8C50E8220EE7FB009F7F8E /* Main.storyboard */,
 				0D8C50EB220EE7FC009F7F8E /* Assets.xcassets */,
 				0D8C50ED220EE7FC009F7F8E /* LaunchScreen.storyboard */,
 				0D8C50F0220EE7FC009F7F8E /* Info.plist */,
 			);
-			path = autolayout;
+			path = CodeBaseUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0D8C50E0220EE7FB009F7F8E /* autolayout */ = {
+		0D8C50E0220EE7FB009F7F8E /* CodeBaseUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D8C50F3220EE7FC009F7F8E /* Build configuration list for PBXNativeTarget "autolayout" */;
+			buildConfigurationList = 0D8C50F3220EE7FC009F7F8E /* Build configuration list for PBXNativeTarget "CodeBaseUI" */;
 			buildPhases = (
 				0D8C50DD220EE7FB009F7F8E /* Sources */,
 				0D8C50DE220EE7FB009F7F8E /* Frameworks */,
@@ -79,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = autolayout;
+			name = CodeBaseUI;
 			productName = autolayout;
-			productReference = 0D8C50E1220EE7FB009F7F8E /* autolayout.app */;
+			productReference = 0D8C50E1220EE7FB009F7F8E /* CodeBaseUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0D8C50DC220EE7FB009F7F8E /* Build configuration list for PBXProject "autolayout" */;
+			buildConfigurationList = 0D8C50DC220EE7FB009F7F8E /* Build configuration list for PBXProject "CodeBaseUI" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D8C50E0220EE7FB009F7F8E /* autolayout */,
+				0D8C50E0220EE7FB009F7F8E /* CodeBaseUI */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +152,11 @@
 			files = (
 				0D8C50E7220EE7FB009F7F8E /* ViewController.swift in Sources */,
 				0D8C50E5220EE7FB009F7F8E /* AppDelegate.swift in Sources */,
+				0D8C50F9220FF8CE009F7F8E /* pageCell.swift in Sources */,
+				0DD1A5D52211103200D27B84 /* SwipingController+UICollectionView.swift in Sources */,
+				0DD1A5D322110DB800D27B84 /* SwipingController+Extension.swift in Sources */,
+				0D8C50F7220FDC14009F7F8E /* SwipingController.swift in Sources */,
+				0D8C50FB2210072A009F7F8E /* Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +304,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M9WQX5SJKH;
-				INFOPLIST_FILE = autolayout/Info.plist;
+				INFOPLIST_FILE = CodeBaseUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.masahiro.autolayout;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masahiro.CodeBaseUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,12 +322,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M9WQX5SJKH;
-				INFOPLIST_FILE = autolayout/Info.plist;
+				INFOPLIST_FILE = CodeBaseUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.masahiro.autolayout;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masahiro.CodeBaseUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +337,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D8C50DC220EE7FB009F7F8E /* Build configuration list for PBXProject "autolayout" */ = {
+		0D8C50DC220EE7FB009F7F8E /* Build configuration list for PBXProject "CodeBaseUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D8C50F1220EE7FC009F7F8E /* Debug */,
@@ -326,7 +346,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D8C50F3220EE7FC009F7F8E /* Build configuration list for PBXNativeTarget "autolayout" */ = {
+		0D8C50F3220EE7FC009F7F8E /* Build configuration list for PBXNativeTarget "CodeBaseUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D8C50F4220EE7FC009F7F8E /* Debug */,
